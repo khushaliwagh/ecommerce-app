@@ -70,7 +70,7 @@ API at http://localhost:8080 — try `GET /api/products`, `GET /api/health`. The
 ### 2. Frontend
 ```bash
 cd frontend
-cp .env.example .env.local     # VITE_API_URL=http://localhost:8080
+cp .env.example .env.local     # VITE_API_URL=http://localhost:8081
 npm install
 npm run dev                    # http://localhost:5173
 ```
